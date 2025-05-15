@@ -1,0 +1,31 @@
+.btn {
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: 0.15rem solid;
+}
+
+.button-1 {
+    color: #2C2830;
+    border-color: #2C2830;
+    background-color: #FFFFFF;
+
+    &:hover {
+        background-color: #2C2830;
+        color: #FFFFFF;
+    }
+
+}
+
+.button-2 {
+    background-color: #2D2641;
+    color: #FFFFFF;
+    background-color: #2D2641;
+
+
+    &:hover {
+        background-color: #fff;
+        color: #2D2641;
+    }
+}
