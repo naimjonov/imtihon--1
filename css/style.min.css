@@ -441,7 +441,7 @@ template {
   margin-bottom: -155px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
   .nav__list {
     display: none;
   }
