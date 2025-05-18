@@ -315,7 +315,7 @@ footer {
   width: 100%;
   padding: 3rem 8rem;
   position: relative;
-  background-color: hsl(0, 0%, 98%);
+  background-color: #FAFAFA;
   background-image: url(../images/bg-pattern-footer-desktop.svg);
   background-position: left top;
   background-size: 35%;
@@ -407,7 +407,7 @@ footer .footer-links .footer-links-section h6 {
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.07rem;
-  color: hsl(273, 4%, 51%);
+  color: #837D88;
   margin-bottom: 1.5rem;
   font-family: "Karla", sans-serif;
 }
@@ -422,7 +422,7 @@ footer .footer-links .footer-links-section ul li a {
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.07rem;
-  color: hsl(0, 0%, 0%);
+  color: #2D2641;
   font-weight: 700;
   text-decoration: none;
   -webkit-transition: 1s;
@@ -445,7 +445,7 @@ footer .attribution {
 
 footer .attribution a {
   text-decoration: none;
-  color: hsl(256, 26%, 20%);
+  color: #2D2641;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   font-family: "Karla", sans-serif;
@@ -502,7 +502,7 @@ footer .attribution a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   z-index: 10;
-  background: rgb(255, 255, 255);
+  background: #FFFFFF;
   overflow-x: hidden;
 }
 
@@ -538,8 +538,11 @@ footer .attribution a:hover {
   text-decoration: none;
   font-size: 0.7rem;
   text-transform: uppercase;
-  padding: 0.7rem;
-  color: hsl(273, 4%, 51%);
+  padding-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: #837D88;
   letter-spacing: 0.1rem;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -548,11 +551,11 @@ footer .attribution a:hover {
 }
 
 .nav-bar nav ul li a:hover {
-  color: hsl(0, 0%, 0%);
+  color: #2C2830;
 }
 
 .nav-bar nav ul li:nth-child(4) a {
-  color: hsl(0, 0%, 0%);
+  color: #2C2830;
 }
 
 .nav-bar nav ul li:nth-child(4) {
@@ -562,7 +565,7 @@ footer .attribution a:hover {
 }
 
 .nav-bar nav ul li:nth-child(4):hover a {
-  color: hsl(0, 0%, 100%);
+  color: #FFFFFF;
   z-index: 2;
 }
 
@@ -573,7 +576,7 @@ footer .attribution a:hover {
   left: 0;
   width: 0;
   height: 100%;
-  background: hsl(270, 9%, 17%);
+  background: #2C2830;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: -1;
@@ -601,7 +604,7 @@ footer .attribution a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100vh;
-  background-color: hsl(256, 26%, 20%);
+  background-color: #2D2641;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-orient: horizontal;
@@ -612,8 +615,8 @@ footer .attribution a:hover {
 
 .intro .right-intro-bg {
   position: absolute;
-  right: -2rem;
-  top: -2rem;
+  right: 0;
+  top: -9px;
   width: 30%;
   z-index: 1;
 }
@@ -656,13 +659,13 @@ footer .attribution a:hover {
 
 .intro .leftcolumn .leftcolumncontent hr {
   width: 10rem;
-  color: hsl(0, 0%, 100%);
+  color: #FFFFFF;
 }
 
 .intro .leftcolumn .leftcolumncontent h1 {
   font-size: 4.6rem;
   font-weight: 400;
-  color: hsl(0, 0%, 100%);
+  color: #FFFFFF;
   margin: 4rem 0 1rem;
   font-family: "DM Serif Display", serif;
   line-height: 4rem;
@@ -671,7 +674,7 @@ footer .attribution a:hover {
 .intro .leftcolumn .leftcolumncontent p {
   font-size: 0.95rem;
   font-weight: 400;
-  color: hsl(0, 0%, 100%);
+  color: #FFFFFF;
   margin-bottom: 1.5rem;
   font-family: "Karla", sans-serif;
   line-height: 1.8rem;
@@ -681,8 +684,8 @@ footer .attribution a:hover {
   text-decoration: none;
   display: inline-block;
   padding: 0.6rem 3rem;
-  border: 1px solid hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 100%);
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
   position: relative;
   text-transform: uppercase;
   font-size: 0.56rem;
@@ -738,13 +741,13 @@ footer .attribution a:hover {
 
 .how-we-work hr {
   width: 10rem;
-  color: hsla(0, 0%, 100%, 0.5);
+  color: #837D88;
 }
 
 .how-we-work h2 {
   font-size: 4rem;
   font-weight: 400;
-  color: hsl(0, 0%, 0%);
+  color: #2C2830;
   margin: 3rem 0 4rem;
   font-family: "DM Serif Display", serif;
 }
@@ -788,7 +791,7 @@ footer .attribution a:hover {
 
 .how-we-work .find-out {
   padding: 3rem 5rem;
-  background-color: hsl(256, 26%, 20%);
+  background-color: #2D2641;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -808,7 +811,7 @@ footer .attribution a:hover {
 
 .how-we-work .find-out h5 {
   font-size: 3rem;
-  color: hsl(0, 0%, 100%);
+  color: #FFFFFF;
   font-family: "DM Serif Display", serif;
   font-weight: 400;
 }
@@ -817,8 +820,8 @@ footer .attribution a:hover {
   text-decoration: none;
   display: inline-block;
   padding: 0.6rem 1rem;
-  border: 1.5px solid hsl(0, 0%, 100%);
-  color: hsl(0, 0%, 100%);
+  border: 1.5px solid #FFFFFF;
+  color: #FFFFFF;
   position: relative;
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -841,7 +844,7 @@ footer .attribution a:hover {
   right: 0;
   width: 0;
   height: 100%;
-  background: hsl(0, 0%, 100%);
+  background: #FFFFFF;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   z-index: -1;
@@ -880,7 +883,7 @@ footer .attribution a:hover {
     left: -991px;
     width: 100vw;
     height: 100vh;
-    background-color: hsl(270, 9%, 17%);
+    background-color: #2C2830;
     background-image: url(../images/bg-pattern-mobile-nav.svg);
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -908,7 +911,7 @@ footer .attribution a:hover {
             box-sizing: border-box;
   }
   .mobile-nav ul li:nth-child(4) {
-    border: 1px solid hsl(0, 0%, 100%);
+    border: 1px solid #FFFFFF;
     padding: 0.8rem 5rem;
   }
   .mobile-nav ul li a {
@@ -917,7 +920,7 @@ footer .attribution a:hover {
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
-    color: hsl(0, 0%, 100%);
+    color: #FFFFFF;
     font-family: "Karla", sans-serif;
   }
   .intro {
@@ -958,7 +961,7 @@ footer .attribution a:hover {
             order: 2;
     height: 70vh;
     z-index: 1;
-    background-color: hsl(256, 26%, 20%);
+    background-color: #2D2641;
     text-align: center;
     padding: 0 1.5rem;
   }
@@ -1001,7 +1004,7 @@ footer .attribution a:hover {
   }
   .how-we-work hr {
     width: 10rem;
-    color: hsla(0, 0%, 100%, 0.5);
+    color: #837D88;
     display: block;
     position: relative;
     margin: 0 auto;
@@ -1009,7 +1012,7 @@ footer .attribution a:hover {
   .how-we-work h2 {
     font-size: 3rem;
     font-weight: 700;
-    color: hsl(0, 0%, 0%);
+    color: #2C2830;
     margin: 3rem 0;
   }
   .how-we-work .servicescontent .content {
@@ -1066,34 +1069,6 @@ footer .attribution a:hover {
     font-size: 0.8rem;
   }
 }
-.btn {
-  padding-top: 13px;
-  padding-bottom: 12px;
-  padding-left: 28px;
-  padding-right: 28px;
-  border: 0.15rem solid;
-}
-
-.button-1 {
-  color: #2C2830;
-  border-color: #2C2830;
-  background-color: #FFFFFF;
-}
-.button-1:hover {
-  background-color: #2C2830;
-  color: #FFFFFF;
-}
-
-.button-2 {
-  background-color: #2D2641;
-  color: #FFFFFF;
-  background-color: #2D2641;
-}
-.button-2:hover {
-  background-color: #fff;
-  color: #2D2641;
-}
-
 *,
 *::after,
 *::before {

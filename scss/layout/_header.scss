@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     z-index: 10;
-    background: rgb(255, 255, 255);
+    background: #FFFFFF;
     overflow-x: hidden;
 }
 
@@ -40,8 +40,11 @@
     text-decoration: none;
     font-size: .7rem;
     text-transform: uppercase;
-    padding: .7rem;
-    color: hsl(273, 4%, 51%);
+    padding-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    color: #837D88;
     letter-spacing: .1rem;
     transition: .5s;
     font-weight: 700;
@@ -49,11 +52,11 @@
 }
 
 .nav-bar nav ul li a:hover {
-    color: hsl(0, 0%, 0%);
+    color: #2C2830;
 }
 
 .nav-bar nav ul li:nth-child(4) a {
-    color: hsl(0, 0%, 0%);
+    color: #2C2830;
 }
 
 .nav-bar nav ul li:nth-child(4) {
@@ -63,7 +66,7 @@
 }
 
 .nav-bar nav ul li:nth-child(4):hover a {
-    color: hsl(0, 0%, 100%);
+    color: #FFFFFF;
     z-index: 2;
 }
 
@@ -74,7 +77,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: hsl(270, 9%, 17%);
+    background: #2C2830;
     transition: .5s;
     z-index: -1;
 }
@@ -95,15 +98,15 @@
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    background-color: hsl(256, 26%, 20%);
+    background-color: #2D2641;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .intro .right-intro-bg {
     position: absolute;
-    right: -2rem;
-    top: -2rem;
+    right: 0;
+    top: -9px;
     width: 30%;
     z-index: 1;
 }
@@ -139,13 +142,13 @@
 
 .intro .leftcolumn .leftcolumncontent hr {
     width: 10rem;
-    color: hsl(0, 0%, 100%);
+    color: #FFFFFF;
 }
 
 .intro .leftcolumn .leftcolumncontent h1 {
     font-size: 4.6rem;
     font-weight: 400;
-    color: hsl(0, 0%, 100%);
+    color: #FFFFFF;
     margin: 4rem 0 1rem;
     font-family: 'DM Serif Display', serif;
     line-height: 4rem;
@@ -154,7 +157,7 @@
 .intro .leftcolumn .leftcolumncontent p {
     font-size: .95rem;
     font-weight: 400;
-    color: hsl(0, 0%, 100%);
+    color: #FFFFFF;
     margin-bottom: 1.5rem;
     font-family: 'Karla', sans-serif;
     line-height: 1.8rem;
@@ -164,8 +167,8 @@
     text-decoration: none;
     display: inline-block;
     padding: .6rem 3rem;
-    border: 1px solid hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 100%);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
     position: relative;
     text-transform: uppercase;
     font-size: .56rem;
@@ -218,13 +221,13 @@
 
 .how-we-work hr {
     width: 10rem;
-    color: hsla(0, 0%, 100%, 0.5);
+    color: #837D88;
 }
 
 .how-we-work h2 {
     font-size: 4rem;
     font-weight: 400;
-    color: hsl(0, 0%, 0%);
+    color: #2C2830;
     margin: 3rem 0 4rem;
     font-family: 'DM Serif Display', serif;
 }
@@ -260,7 +263,7 @@
 
 .how-we-work .find-out {
     padding: 3rem 5rem;
-    background-color: hsl(256, 26%, 20%);
+    background-color: #2D2641;
     display: flex;
     align-items: center;
     position: relative;
@@ -274,7 +277,7 @@
 
 .how-we-work .find-out h5 {
     font-size: 3rem;
-    color: hsl(0, 0%, 100%);
+    color: #FFFFFF;
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
 }
@@ -283,8 +286,8 @@
     text-decoration: none;
     display: inline-block;
     padding: .6rem 1rem;
-    border: 1.5px solid hsl(0, 0%, 100%);
-    color: hsl(0, 0%, 100%);
+    border: 1.5px solid #FFFFFF;
+    color: #FFFFFF;
     position: relative;
     text-transform: uppercase;
     font-size: .7rem;
@@ -306,7 +309,7 @@
     right: 0;
     width: 0;
     height: 100%;
-    background: hsl(0, 0%, 100%);
+    background: #FFFFFF;
     transition: .5s;
     z-index: -1;
 }
@@ -342,7 +345,7 @@
         width: 1.6rem;
         border: none;
         padding: 0;
- 
+
     }
 
 
@@ -353,7 +356,7 @@
         left: -991px;
         width: 100vw;
         height: 100vh;
-        background-color: hsl(270, 9%, 17%);
+        background-color: #2C2830;
         background-image: url(../images/bg-pattern-mobile-nav.svg);
         background-position: right bottom;
         background-repeat: no-repeat;
@@ -375,7 +378,7 @@
     }
 
     .mobile-nav ul li:nth-child(4) {
-        border: 1px solid hsl(0, 0%, 100%);
+        border: 1px solid #FFFFFF;
         padding: .8rem 5rem;
     }
 
@@ -385,7 +388,7 @@
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: .1rem;
-        color: hsl(0, 0%, 100%);
+        color: #FFFFFF;
         font-family: 'Karla', sans-serif;
     }
 
@@ -427,7 +430,7 @@
         order: 2;
         height: 70vh;
         z-index: 1;
-        background-color: hsl(256, 26%, 20%);
+        background-color: #2D2641;
         text-align: center;
         padding: 0 1.5rem;
     }
@@ -473,7 +476,7 @@
 
     .how-we-work hr {
         width: 10rem;
-        color: hsla(0, 0%, 100%, 0.5);
+        color: #837D88;
         display: block;
         position: relative;
         margin: 0 auto;
@@ -482,7 +485,7 @@
     .how-we-work h2 {
         font-size: 3rem;
         font-weight: 700;
-        color: hsl(0, 0%, 0%);
+        color: #2C2830;
         margin: 3rem 0;
     }
 
